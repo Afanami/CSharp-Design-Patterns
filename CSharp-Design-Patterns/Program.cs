@@ -52,3 +52,36 @@
     Inheritance "is-a" relationship.
 */
 
+/*
+    using CSharp_Design_Patterns.src.OopsPrinciples.Inheritance;
+
+    var car = new Car();
+
+    // Accessing properties from the base class
+    car.Brand = "Toyota";
+    car.Start();
+    car.Stop();
+
+    // Accessing properties from the derived class
+    car.NumberOfDoors = 4;
+    car.NumberOfWheels = 4;
+*/
+
+/*
+    Polymorphism
+    Polymorphism is the ability of an object to take on many forms.
+    Polymorphism is used to define different behaviors for subclasses that have the same method name.
+    Polymorphism is achieved using method overriding in C#.
+    Polymorphism "is-a" relationship.
+*/
+
+using CSharp_Design_Patterns.src.OopsPrinciples.Polymorphism;
+
+List<Vehicle> vehicles = new List<Vehicle>();
+vehicles.Add(new Car { Brand = "Toyota", Model = "Corolla", Year = 2021, NumberOfDoors = 4 });
+vehicles.Add(new Motorcycle { Brand = "Honda", Model = "CBR", Year = 2021 });
+
+foreach (var vehicle in vehicles)
+{
+    vehicle.Start();
+}
