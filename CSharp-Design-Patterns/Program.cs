@@ -132,3 +132,27 @@ When to use Inheritance:
     When you want to leverage polymorphism to define different behaviors for subclasses that have the same method name.
 */
 
+/*
+    Fragile Base Class Problem
+    The fragile base class problem is a problem that occurs when a base class is modified and the changes break the derived classes. This problem is common in inheritance-based designs where changes to the base class can have unintended consequences on the derived classes due to the tight coupling between them.
+    The fragile base class problem can be avoided by using composition instead of inheritance.
+    Composition is more flexible than inheritance because it allows you to create a new class by combining multiple classes, which reduces the dependency between classes.
+
+    Inhertiance coupling:
+        Tight coupling
+        Fragile base class problem
+        Inflexible
+        Code duplication
+
+    Limited Extensibility:
+        Inheritance is a static relationship that cannot be changed at runtime.
+        Inheritance is a compile-time relationship that is fixed at design time.
+        Inheritance is a one-time relationship that cannot be changed once the classes are defined.
+        Inheritance is a rigid relationship that does not allow for dynamic changes at runtime.
+
+    Mitigating the Fragile Base Class Problem:
+        Use composition instead of inheritance.
+        Use interfaces to define contracts between classes.
+        Use dependency injection to decouple classes.
+        Use design patterns to reduce dependencies between classes.
+*/
