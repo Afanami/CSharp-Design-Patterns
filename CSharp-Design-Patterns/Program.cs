@@ -156,3 +156,20 @@ When to use Inheritance:
         Use dependency injection to decouple classes.
         Use design patterns to reduce dependencies between classes.
 */
+
+/*
+    Single Responsibility Principle (SRP)
+        The Single Responsibility Principle (SRP) states that a class should have only one reason to change.
+
+    Open/Closed Principle (OCP)
+        The Open/Closed Principle (OCP) states that a class should be open for extension but closed for modification.
+
+    Liskov Substitution Principle (LSP)
+        The Liskov Substitution Principle (LSP) states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+
+    Interface Segregation Principle (ISP)
+        The Interface Segregation Principle (ISP) states that a class should not be forced to implement interfaces it does not use.
+
+    Dependency Inversion Principle (DIP)
+        The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
+*/
