@@ -109,3 +109,26 @@
     Composition is used to achieve code reusability in C#.
     Composition "has-a" relationship.
 */
+
+/*
+    using CSharp_Design_Patterns.src.OopsPrinciples.Composition;
+
+    var car = new Car();
+    car.StartCar();
+*/
+
+/*
+Composition vs Inheritance
+
+When to use Composition:
+    When you want to create a new class by combining multiple classes.
+    When you want to achieve code reusability.
+    When you want to create a class that has a "has-a" relationship with other classes.
+
+When to use Inheritance:
+    When you want to create a new class by using the properties and methods of an existing class.
+    When you want to achieve code reusability.
+    When you want to create a class that has an "is-a" relationship with other classes.
+    When you want to leverage polymorphism to define different behaviors for subclasses that have the same method name.
+*/
+
