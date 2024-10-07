@@ -72,16 +72,40 @@
     Polymorphism is the ability of an object to take on many forms.
     Polymorphism is used to define different behaviors for subclasses that have the same method name.
     Polymorphism is achieved using method overriding in C#.
-    Polymorphism "is-a" relationship.
 */
 
-using CSharp_Design_Patterns.src.OopsPrinciples.Polymorphism;
+/*
+    using CSharp_Design_Patterns.src.OopsPrinciples.Polymorphism;
 
-List<Vehicle> vehicles = new List<Vehicle>();
-vehicles.Add(new Car { Brand = "Toyota", Model = "Corolla", Year = 2021, NumberOfDoors = 4 });
-vehicles.Add(new Motorcycle { Brand = "Honda", Model = "CBR", Year = 2021 });
+    List<Vehicle> vehicles = new List<Vehicle>();
+    vehicles.Add(new Car { Brand = "Toyota", Model = "Corolla", Year = 2021, NumberOfDoors = 4 });
+    vehicles.Add(new Motorcycle { Brand = "Honda", Model = "CBR", Year = 2021 });
 
-foreach (var vehicle in vehicles)
-{
-    vehicle.Start();
-}
+    foreach (var vehicle in vehicles)
+    {
+        // Treat all vehicles as the base class
+        vehicle.Start();
+    }
+*/
+
+/*
+    Coupling
+    Coupling is the degree of dependency between two classes.
+    Tight coupling is when a class is dependent on another class.
+    Loose coupling is when a class is not dependent on another class.
+    Loose coupling is achieved using interfaces in C#.
+*/
+
+/*
+    using CSharp_Design_Patterns.src.OopsPrinciples.Coupling;
+    
+    var order = new Order(new SmsSender());
+    order.PlaceOrder();
+*/
+
+/*
+    Composition
+    Composition is the process of creating a new class by combining multiple classes.
+    Composition is used to achieve code reusability in C#.
+    Composition "has-a" relationship.
+*/
